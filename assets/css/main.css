@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    object-fit: cover;
+}
+:root{
+    --color-blue: #be4040;
+}
+body{
+    background-color: #f2f3f8;
+}
+.navbar-search{
+    width: 350px;
+}
+.nav-search-box button{
+    color: var(--color-blue);
+}
+.navbar-option li{
+    margin: 0px 8px;
+}
+.navbar-menu li a{
+    padding: 8px 16px;
+    display: block;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.navbar-menu li a:nth-child(1){
+    padding-left: 0px;
+}
+.categories-title-homepage{
+    color: white;
+    background-color: var(--color-blue);
+    padding: 8px 16px;
+}
+.main-menu-categories li a{
+    display: block;
+    padding: 8px 16px;
+
+}
